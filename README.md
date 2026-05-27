@@ -21,3 +21,5 @@ Resta con me, mia stella nascosta,
 massa d'amore in un nucleo di luce:
 in ogni energia che il mondo sprigiona,
 sei tu che mi muovi, sei tu che mi conduce.
+
+firmato Gruppo D
