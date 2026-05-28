@@ -4,3 +4,4 @@ ipympl
 ipykernel
 pandas
 ultranest
+h5py

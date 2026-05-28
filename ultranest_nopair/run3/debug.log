@@ -1,0 +1,2 @@
+16:55:01 [ultranest] [DEBUG] ReactiveNestedSampler: dims=5+0, resume=False, log_dir=ultranest_nopair/run3, backend=hdf5, vectorized=True, nbootstraps=30, ndraw=128..65536
+16:57:50 [ultranest] [DEBUG] ReactiveNestedSampler: dims=5+0, resume=False, log_dir=ultranest_nopair/run4, backend=hdf5, vectorized=True, nbootstraps=30, ndraw=128..65536
