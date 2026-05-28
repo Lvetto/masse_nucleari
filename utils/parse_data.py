@@ -30,12 +30,11 @@ NAMES = [
 ]
 
 def _normalize_col(series: pd.Series) -> pd.Series:
-    """Sostituisce '#' (valore stimato) con '.' e converte in float."""
+    """Converte in float; valori contenenti '#' (stime) diventano NaN."""
     return (
         series.astype(str)
-        .str.replace("#", ".", regex=False)
+        .str.replace(r"\S*#\S*", "nan", regex=True)
         .str.strip()
-        .replace("", float("nan"))
         .pipe(pd.to_numeric, errors="coerce")
     )
 
