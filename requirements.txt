@@ -1,0 +1,6 @@
+numpy
+matplotlib
+ipympl
+ipykernel
+pandas
+ultranest
