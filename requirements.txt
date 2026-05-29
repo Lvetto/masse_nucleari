@@ -1,7 +1,0 @@
-numpy
-matplotlib
-ipympl
-ipykernel
-pandas
-ultranest
-h5py
