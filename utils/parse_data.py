@@ -47,7 +47,7 @@ def read_file(filepath: str) -> pd.DataFrame:
     data_start = next(
         i for i, line in enumerate(lines)
         if line.startswith("....+....1")
-    ) + 7
+    ) + 9
 
     # Lasciamo che pandas converta il file fortran:
     df = pd.read_fwf(
